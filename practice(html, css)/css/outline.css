@@ -1,0 +1,118 @@
+body {
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 1590px 730px;
+}
+#maintitle{
+    color:white; font-family: Mistral; margin: auto;
+    text-align:right; padding: 15px; font-size:40px;
+}
+pre{
+    color:white;
+    font-family:Arial Black;
+    font-size:10px
+}
+#everyheader{
+    text-align:left;
+    color:white;
+    font-size: 40px;
+    padding: 0%;
+    font-family:"Arial Black";
+    margin:40px;
+}
+#mainheader {
+    color:white; font-family: Mistral; font-size: 100px
+}
+.align{
+    font-family: "Arial Rounded MT Bold";
+}
+.align ul {
+    list-style-type: none;
+    margin: -16px;
+    padding: 0px;
+    overflow: hidden;
+    background-color:black;
+}
+.align li {
+    float: left;
+}
+.align li a {
+    display:inline-block;
+    color: white;
+    text-align: center;
+    padding: 23px 20px;
+    text-decoration: none;
+    margin:10px;
+}
+.align li a:hover {
+    background-color:black;
+}
+.topmenuactive {
+    background-color: red;
+}
+.bevemenu{
+    font-size: 20px;
+    color:white;
+    padding: 5px;
+    font-family: "Arial Black";
+    margin:20px;
+}
+.bevemenu a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.bevemenu a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.bevemenu a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    background-color: grey;
+    font-family: "Arial Black";
+    font-size:10px;
+    font-weight:bold;
+    color:ghostwhite;
+}
+table {
+    margin:2px;
+    font-family: "Arial Black";
+    color:white;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th{
+    color:white;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    padding: 2px;
+    color:white;
+    background-color: transparent;
+}
+td a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+td a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+td a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
